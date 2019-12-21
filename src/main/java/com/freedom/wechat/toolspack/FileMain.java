@@ -14,7 +14,7 @@ public class FileMain {
         FilereadLineClass filereadLineClass = new FilereadLineClass();
         stringList = FilereadLineClass.readTextFileIntoStringArray("/Users/ningli/Downloads/root.txt");
         for (String str : stringList){
-            System.out.println(">>>> " + str +" <<<<<");
+            System.out.println(">>>> " + str +" < <<<<");
         }
 
 
